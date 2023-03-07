@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+
+#menuWrapper{
+    width: 100%;
+    height: 75px;
+    background-color: black;
+}
+
+#menu{
+    width: 75%;
+    height: 75px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.spotify_logo{
+    width: 170px;
+    height: 75px;
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+}
+.spotify_logo i{
+    display: inline-block;
+    font-size: 60px;
+    position: absolute;
+    padding: 5px 0px;
+    color:rgb(255, 255, 255);
+}
+.spotify_logo .spotify_p{
+    position: absolute;
+    font-size: 25px;
+    font-weight: bold;
+    padding:24px 66px;
+     color: white;
+}
+
+#top_links{
+    display: inline-block;
+    width: auto;
+    height: 75px;
+    float: right;
+}
+#top_links ul{
+    list-style-type: none;
+}
+
+#top_links ul li{
+    display: inline;
+}
+
+#top_links ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    margin: 28px 28px;  
+    text-align: justify;
+    line-height: 75px;
+}
+
+#top_links a:hover{
+    border-bottom: 1px solid #1ed760;
+    padding-bottom: 5px;
+    transition: 0.4s;
+    color: #1ed760;
+}
+
+#bannerWrapper{
+    width: 100%;
+    height: 885px;
+    background-image: url("../html_kutular/gerekli_dosyalar/banner_bg.jpg");
+    text-align: center;
+}
+
+#bannerWrapper h1{
+    text-transform: uppercase;
+    font-size: 104px;
+    color: #1ed760;
+    padding-top: 100px;
+    line-height: 180px;
+}
+
+#bannerWrapper h4{
+    font-size: 32px;
+    margin: 18px 0px;
+    text-transform: uppercase;
+    color: #1ed760;
+}
+
+#bannerWrapper a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 32px;
+    color: #000000;
+    border: 3px solid solid;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    background-color: #1ed760;
+    padding: 18px 26px;
+    margin: 20px 0px;
+}
+
+#bannerWrapper a:hover{
+    transition: 0.4s;
+    background-color:rgba(0,0,0,0.3);
+}
+
+#footerWrapper{
+    width: 100%;
+    height: 290px;
+    background-color: #000000;
+}
+
+#footer{
+    width: 1170px;
+    height: 200px;
+    padding-top: 90px;
+    margin: auto auto;
+}
+
+#footer .footer_menu_heading{
+    font-weight: bold;
+    color: #919496;
+    font-size: 12px; 
+}
+
+#footerWrapper .footer_menu_heading ul{
+    list-style-type: none;
+}
+
+#footerWrapper .footer_menu_heading ul li{
+    display: inline;
+    font-weight: 500;
+    font-size: 16px;
+    color: aliceblue;
+    margin-left: 13px;
+    margin-right: 13px;
+}
+
+#social_menu{
+    width: auto ;
+    height: 60px;
+    float: right;
+}
+
+#social_menu ul{
+    list-style-type: none;
+}
+
+#social_menu li{
+    display: inline;
+}
